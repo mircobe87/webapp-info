@@ -15,9 +15,11 @@ html, body {
 	padding-right:  16px;
 	padding-bottom: 1px;
 	border:         0px;
+	z-index: 2;
 }
 #osLogo {
 	position: absolute;
 	bottom: 8px;
 	right: 8px;
+	z-index: -1;
 }

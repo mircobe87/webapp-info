@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-#contenuto {			
+body {			
 	background: #d8ffa5; /* Old browsers */
 	background: -moz-linear-gradient(top,  #d8ffa5 0%, #ffffff 25%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d8ffa5), color-stop(25%,#ffffff)); /* Chrome,Safari4+ */
