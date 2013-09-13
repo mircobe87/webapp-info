@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+	    <title>Info Sistema</title>
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="js/index.js"></script>
+        <script>
+			navigator.geolocation.getCurrentPosition(function (p) {
+				var lat = p.coords.latitude;
+				var lon = p.coords.longitude;
+				alert("latitudine: " + lat + "\nlongitudine: " + lon);
+			});
+		</script>
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="icon" href="icon.png">
+    </head>
+    
+    <body>
+    	<div id="contenuto">
+            <h1>Informazioni sul browser e sul sistema</h1>
+            <h2>Browser</h2>
+            <ul>
+            <li><b>CodeName:</b> <span id="codeName">--</span></li>
+            <li><b>Name:</b> <span id="name">--</span></li>
+            <li><b>Version:</b> <span id="version">--</span></li>
+            <li><b>Cookies Enabled:</b> <span id="cookies">--</span></li>
+            </ul>
+            <h2>Sistema</h2>
+            <ul>
+            <li><b>Platform:</b> <span id="platform">--</span></li>
+            <li><b>User-agent header:</b> <span id="header">--</span></li>
+            <li><b>User-agent language:</b> <span id="language">--</span></li>
+            </ul>
+            <img id="osLogo" src="" alt="sistema operativo non identificato" height="128px">
+        </div>
+    </body>
+</html>

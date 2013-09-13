@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+#contenuto {			
+	background: #fff1ce; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fff1ce 0%, #ffffff 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff1ce), color-stop(50%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fff1ce 0%,#ffffff 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fff1ce 0%,#ffffff 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fff1ce 0%,#ffffff 50%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fff1ce 0%,#ffffff 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff1ce', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
